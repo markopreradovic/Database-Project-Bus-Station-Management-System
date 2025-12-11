@@ -18,6 +18,4 @@ Bus Station Management System is a desktop application designed to manage bus st
 - Architecture Pattern: 3-tier architecture (Presentation Layer, Business Logic Layer, Data Access Layer)
 - Application Type: Windows Forms Desktop Application
 
-### License
-No specific license information provided in the repository
 
