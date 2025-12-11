@@ -1,53 +1,23 @@
-# Bus System 🚌💻
+ 
+Bus Station Management System is a desktop application designed to manage bus station operations including ticket management, employee records, route information, station data, and passenger tracking. The system supports two user roles: employees who can view stations, manage routes, handle tickets and passenger records; and administrators who have full control over employee management, route operations, and station management. The application is built using C# with a 3-tier architecture pattern and MySQL database.
 
-![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp)
-![.NET](https://img.shields.io/badge/.NET-6.0-512BD4?logo=dotnet)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql)
+### Main Function Points
+- Ticket management and reservation system
+- Employee and staff record management
+- Route management with departure/arrival time tracking
+- Bus station data management
+- Passenger registration and travel documentation
+- Access control and permission management
+- Reporting system for operational changes
+- Role-based user interface (Employee vs Administrator)
 
-## 📌 Project Specification
+### Technology Stack
+- Programming Language: C#
+- Development Environment: Visual Studio 2022
+- Database System: MySQL with MySQL Workbench
+- Architecture Pattern: 3-tier architecture (Presentation Layer, Business Logic Layer, Data Access Layer)
+- Application Type: Windows Forms Desktop Application
 
-The "Bus Station" application aims to manage information related to bus station operations, including:
-- Ticket management
-- Employee records
-- Route information
-- Station data
-- Passenger tracking
+### License
+No specific license information provided in the repository
 
-## 👥 User Roles
-
-### 👷♂️ Employee Features
-- **Station details** viewing
-- **Route management**:
-  - View departure/arrival times
-  - Track origin/destination points
-- **Ticket operations**:
-  - Ticket sales
-  - Reservation management
-- **Passenger records**:
-  - Passenger registration
-  - Travel documentation
-- **Reporting system** for changes
-
-### 👨💻 Administrator Features
-- **Employee management**:
-  - Add/remove staff
-  - Access control
-- **Route operations**:
-  - Add/edit/delete routes
-- **Station management**:
-  - Add/edit/delete bus stations
-
-## 💻 Technical Implementation
-- **Programming Language**: C#
-- **Development Environment**: Visual Studio 2022
-- **Database System**: MySQL (MySQL Workbench)
-- **Architecture**: 3-tier architecture (Presentation, Business Logic, Data Access)
-
-## 🗄️ Database Schema
-Key entities include:
-- `Employees` (staff records)
-- `Routes` (travel paths)
-- `Stations` (bus stops)
-- `Tickets` (sales records)
-- `Passengers` (traveler information)
-- ....
